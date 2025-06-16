@@ -1,0 +1,27 @@
+INSERT INTO Feeds (
+                    id,
+                    ordr,
+                    title,
+                    description,
+                    date_created,
+                    icon,
+                    category,
+                    source,
+                    update_type,
+                    update_interval,
+                    is_off,
+                    is_quiet,
+                    is_rtl,
+                    add_any_datetime_articles,
+                    datetime_to_avoid,
+                    keep_article_customize,
+                    keep_article_count,
+                    keep_unread_articles,
+                    keep_starred_articles,
+                    recycle_articles,
+                    open_articles,
+                    account_id,
+                    custom_id,
+                    custom_data
+                    )
+VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
