@@ -55,7 +55,11 @@ java -jar migrator_v1.0.jar /path/to/feeds.db /path/to/database.db
 
 ### Method 2: Precompiled JAR (Recommended for Most Users)
 - Download the latest migrator.jar from ![Releases](https://github.com/RachidTagzen/quiteRSS-to-rssguard-database-migrator/releases)
-- Run directly:
+- Make executable (Linux) :
+```bash
+chmod +x migrator_v1.0.jar
+```
+- Run directly (Don't forget to set the jar as executable) :
 ```bash
 java -jar migrator_v1.0.jar /path/to/feeds.db /path/to/database.db
 ```
