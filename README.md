@@ -50,14 +50,14 @@ This tool makes DIRECT modifications to your database files. **Always**:
 ```bash
 javac -d bin src/*.java
 jar cvfe migrator.jar Main -C bin .
-java -jar migrator.jar /path/to/feeds.db /path/to/database.db
+java -jar migrator_v1.0.jar /path/to/feeds.db /path/to/database.db
 ```
 
 ### Method 2: Precompiled JAR (Recommended for Most Users)
 - Download the latest migrator.jar from ![Releases](https://github.com/RachidTagzen/quiteRSS-to-rssguard-database-migrator/releases)
 - Run directly:
 ```bash
-java -jar migrator.jar /path/to/feeds.db /path/to/database.db
+java -jar migrator_v1.0.jar /path/to/feeds.db /path/to/database.db
 ```
 
 ## Performance Tuning
